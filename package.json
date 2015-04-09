@@ -1,0 +1,41 @@
+{
+  "name": "google-play-restify-endpoints",
+  "version": "1.0.0",
+  "description": "endpoints for google play services",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.test.js",
+    "dev": "nodemon -i js test/start_server.js"
+  },
+  "keywords": [
+    "google",
+    "play",
+    "restify"
+  ],
+  "author": "dweinstein",
+  "license": "MIT",
+  "devDependencies": {
+    "endpointer": "*",
+    "node-googleplay-api": "*",
+    "nodemon": "*",
+    "restify": "*",
+    "tape": "*"
+  },
+  "dependencies": {
+    "jsonschema": "^1.0.1",
+    "lodash.flatten": "^3.0.2",
+    "lodash.pluck": "^3.0.2",
+    "lodash.transform": "^3.0.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dweinstein/google-play-endpoints.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dweinstein/google-play-endpoints/issues"
+  },
+  "homepage": "https://github.com/dweinstein/google-play-endpoints"
+}
